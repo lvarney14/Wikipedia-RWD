@@ -50,7 +50,15 @@ footer {
 /*===============
 	NAV
 ===============*/
+nav {
+	float: left;
+}
 
+nav li {
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+	}
 
 /*===============
 	TYPOGRAPHY
@@ -94,6 +102,26 @@ footer a {
 
 } /* end of Desktop */
 
+/*===============
+	STANDARD DESKTOP
+===============*/
+
+@media screen and  ( max-width: 12080px ){
+
+	body{
+		background: yellow;
+	}
+	
+	aside {
+		text-align: center;
+	}
+	
+	.facts {
+		width: 100%;
+		text-align: left;
+	}
+	
+} /* end of Standard Desktop */
 
 /*===============
 	TABLET
